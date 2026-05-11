@@ -27,7 +27,7 @@ export default function Footer() {
               <h4>Product</h4>
               <a href="#features">Features</a>
               <a href="#screenshots">Screenshots</a>
-              <a href="#download">Download</a>
+              <a href="https://github.com/Riontuscano/saathiai/releases/download/v1.0.0/Saathi.apk" target="_blank" rel="noopener noreferrer">Download</a>
               <a href="#">Changelog</a>
             </div>
 
@@ -41,8 +41,8 @@ export default function Footer() {
 
             <div className="footer-col">
               <h4>Connect</h4>
+              <a href="https://github.com/Riontuscano/saathiai" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="#">Contact Us</a>
-              <a href="#">Blog</a>
               <a href="#">Community</a>
             </div>
           </div>
@@ -50,8 +50,8 @@ export default function Footer() {
           <div className="footer-bottom">
             <p>&copy; {new Date().getFullYear()} saathi.ai — All rights reserved.</p>
             <div className="footer-socials">
-              <a href="#" aria-label="Website"><Globe size={18} /></a>
-              <a href="#" aria-label="Links"><ExternalLink size={18} /></a>
+              <a href="https://github.com/Riontuscano/saathiai" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Globe size={18} /></a>
+              <a href="https://github.com/Riontuscano/saathiai/releases/download/v1.0.0/Saathi.apk" target="_blank" rel="noopener noreferrer" aria-label="Download"><ExternalLink size={18} /></a>
               <a href="#" aria-label="Chat"><MessageCircle size={18} /></a>
             </div>
           </div>

@@ -38,7 +38,7 @@ export default function Navbar() {
           <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
           <li><a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a></li>
           <li>
-            <a href="#download" className="nav-cta" onClick={() => setMenuOpen(false)}>
+            <a href="https://github.com/Riontuscano/saathiai/releases/download/v1.0.0/Saathi.apk" className="nav-cta" onClick={() => setMenuOpen(false)} target="_blank" rel="noopener noreferrer">
               Download APK <Download size={16} />
             </a>
           </li>

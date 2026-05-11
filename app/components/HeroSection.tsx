@@ -55,11 +55,11 @@ export default function HeroSection() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#download" className="btn-primary">
+          <a href="https://github.com/Riontuscano/saathiai/releases/download/v1.0.0/Saathi.apk" className="btn-primary" target="_blank" rel="noopener noreferrer">
             <Download size={18} /> Download APK
           </a>
-          <a href="#how-it-works" className="btn-secondary">
-            <Play size={18} /> Watch Demo
+          <a href="https://github.com/Riontuscano/saathiai" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+            <Play size={18} /> View on GitHub
           </a>
         </div>
 
